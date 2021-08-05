@@ -1,6 +1,38 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* <!-- header start --> */
+.nav-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 94px;
+    background: #562EFF;
+    
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 140px;
+    
+}
+.nav-item, .logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.nav-item a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item h3{
+    padding-left: 10px;
+    color: white;
+}
+/* <!-- header end --> */
+
 /* common style or utilities*/
 body{
     font-family: 'Poppins', sans-serif;
